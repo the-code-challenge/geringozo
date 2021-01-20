@@ -1,6 +1,15 @@
-# Code Challenge: Name
+# Code Challenge: geringozo
 
-descripcion
+El geringozo es una variante lúdica del habla en la que se intercalan sílabas entre medio de una palabra en forma reiterada.
+
+Para usarlo debemos introducir delante de cada vocal la letra P y luego la letra vocal, aca tenemos unos ejemplos:
+
+- no => nopo  
+- si => sipi  
+- hola => hopolapa
+- estar => epestapar  
+
+Se requiere que dada una palabra se retorne su traducción al geringozo
 
 ## Instrucciones
 - Crear un nuevo repositorio utilizando este repositorio como template (Boton: use this template).
@@ -21,30 +30,40 @@ npm run test
 ## Entrada
 
 ##### Parámetro 1
-- **nombre**: num
-- **tipo**: Number (Integer)
-- **limitaciones**: 0 < **num** <= 10
+- **nombre**: str
+- **tipo**: String
+- **limitaciones**: 0 < **str.length** <= 30
 
 ## Salida
 
-- **tipo**: Number (Integer)
+- **tipo**: String
 
 ## Ejemplo
-**1** debe retornar **1** porque: 1 == 1
+Dado el string "hola" debe retornar "hopolapa"
 
 ## Tests
 
 ### Test 1  
 
-- **Parametros**: param = 1  
-- **Resultado esperado**: xxx
+- **Parametros**: (str = "hola") 
+- **Resultado esperado**: "hopolapa"
 ---
 ### Test 2  
 
-- **Parametros**:  param = 2  
-- **Resultado esperado**: xxx
+- **Parametros**:  (str = "¿como estas?")  
+- **Resultado esperado**: "¿copomopo epestapas?"
 ---
 ### Test 3  
 
-- **Parametros**: param = 3  
-- **Resultado esperado**: xxx
+- **Parametros**: (str = "estoy bien ¿y vos?")  
+- **Resultado esperado**: "epestopoy bipiepen ¿y vopos?"
+---
+### Test 4 
+
+- **Parametros**: (str = "a todo ritmo")  
+- **Resultado esperado**: "apa topodopo ripitmopo"
+---
+### Test 5 
+
+- **Parametros**: (str = "quiero queso")  
+- **Resultado esperado**: "quipieperopo quepesopo"

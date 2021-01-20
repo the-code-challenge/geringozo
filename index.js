@@ -1,8 +1,8 @@
-const challengeFunction = function(param){
+const geringozo = function(str){
     /* YOUR CODE HERE */
     let result
 
     return result
 }
 
-module.exports = challengeFunction
+module.exports = geringozo
