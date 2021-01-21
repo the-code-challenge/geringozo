@@ -11,6 +11,8 @@ Para usarlo debemos introducir delante de cada vocal la letra P y luego la letra
 
 Se requiere que dada una palabra se retorne su traducción al geringozo
 
+En el caso de las sílabas "que", "qui", "gue", "gui" la variante solo se aplica sobre la última vocal "e" / "i"
+
 ## Instrucciones
 - Crear un nuevo repositorio utilizando este repositorio como template (Boton: use this template).
 - Editar el código de la función definida en el archivo index.js con un algoritmo que permita obtener los resultados esperados en los test.

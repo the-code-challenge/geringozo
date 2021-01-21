@@ -1,8 +1,7 @@
 const geringozo = function(str){
-    /* YOUR CODE HERE */
-    let result
 
-    return result
+    /* YOUR CODE HERE */
+
 }
 
 module.exports = geringozo
